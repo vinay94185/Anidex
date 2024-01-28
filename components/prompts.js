@@ -1,0 +1,3 @@
+
+
+export const breed = '{ "breedName": string, "aboutBreed": string, "characteristics": [ "Coat": string, "Color": [ string, string, ... ] , "Size": string, "Lifespan": string ], "temperament": string, "preferredFood": [ string, string, .... ] } please output strictly in the provided format. if the there is no dog or the breed cannot be identified in the provided picture. return { "error": "Unable to identify dog, please provide a different image." }';
